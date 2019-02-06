@@ -1,0 +1,25 @@
+9/16/18		4PM
+		Got started on the project. First created place_PC which puts the player character
+		in a random room with a random x, y. Started working on Dijkstras too with my code.
+		8PM
+		Realized I had some of my code break after checking load and save. I then made 
+		the decision to switch to Jeremy's code.
+		10PM
+		Finally finished understanding his code and why he wrote it. Learned all the structs
+		and what they do. I learned how his Dijkstra's corridor worked and the methods in
+		heap.c worked too.
+		11PM
+		Started on Dijkstras path finder for non tunneling monsters. Realized I did not
+		understand his code like I thought I did. Proceeded to relearn his code for Dijkstra's
+		and why he did what he did.
+9/17/18		
+		1230AM
+		Finished for the night. Completed most of my path finder for corridors.
+		11AM
+		Finished up my path finder for the corridors and started it for the whole map. Minor
+		changed needed to be made so this was an easy finish.
+		12PM
+		Finished the project.
+9/24/18		10PM
+		Checked my load function with djikstras and had to fix a minor error involving the
+		player placement.

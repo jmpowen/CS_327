@@ -1,0 +1,3 @@
+This is my dungeon that creates a set amount of monsters(or a given amount of monsters) for each dungeon. The player can move up or down levels of the dungeon using the stairs and pressing the keys while standing on it. The monsters have different speeds and are all trying to get to the character to kill him/her. Good luck on not dying!
+
+All my code is in interaction.c except for making the stairs which is in dungeon and some minor edits to move and rlg327 to allow for playing the pc in this new refreshing dungeon rather than a dungeon rendered over time.

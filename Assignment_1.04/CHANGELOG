@@ -1,0 +1,20 @@
+9/30/18	3PM	Reviewed the assignment, downloaded the instructor's code and started to write
+		character_t struct and add components needed to have all that players and npcs would
+		need.
+9/30/18	9PM	Completed nummon switch and got monsters to generate randomly in a single board.
+10/1/18	11AM	Started reading the heap implementation and confused myself to the point of needing
+		a hard reset so I took a day off from the project.
+10/2/18 9PM	Started using the heap after a friend, a TA, and another friend explained to me how
+		heaps work again and how Jeremy's code works. Super simple implementation after 
+		slogging through all that gibberish(but I'm sure it runs very cleanly).
+10/2/18	11PM	Made the fatal decision to get it done this night rather than tomorrow in the day.
+10/3/18 12AM	Completed my understanding of how heap has to be implemented and used(WHY IS THERE
+		NO NODES NEEDED IN CHARACTER BUT THANK G ITS THAT WAY). Ran valgrind and gdb to debug
+		at this point. Got my code lookin all spiffy, no seg faults, no leaks.
+10/3/18 12:10AM Started writing more to move player and move the npcs. Figured out a way that seemed
+		to minimalized the amount of code needed and started writing my play method which 
+		calls the rest of the methods on how to move, caused a bunch of headaches because
+		valgrind showed leaks and I was coding poorly.
+10/3/18	9AM	Project pretty much completed except for valgrind issues and minor edits to moving
+		I kept making throughout the day.
+10/3/18 4PM	Submitting a version with only a little bit of leaks.

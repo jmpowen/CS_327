@@ -1,0 +1,44 @@
+#include "moving.h"
+#include "dungeon.h"
+
+static dungeon_t *dungeon;
+
+typedef struct next_turn {
+  heap_node_t *hn;
+  character_t pc_monsters;
+} next_turn_t;
+
+static int32_t turn_cmp(const void *key, const void *with)
+{
+  return ((character_t *) key)->turn - ((character_t *) with)->turn;
+}
+
+character_t play_dungeon(dungeon_t *d)
+{
+  heap_t h;
+  int size = sizeof(d->characters);
+  static next_turn_t n[d->num_monsters+1], *c;
+  
+  for(int i = 0; i < d->num_monsters+1; i++) {
+    n[i].pc_monsters = d->characters[i];
+  }
+
+  heap_init(&h, turn_cmp, NULL);
+
+  for(int i = 0; i < d->num_monsters+1; i++) {
+    n[i].hn = heap_insert(&h, &n[i]);
+  }
+
+  character_t lowest_turn = NULL;
+
+  while((c = heap_remove_min(&h))) {
+    if(--size != h.size) {
+      exit(1);
+    }
+    c->hn = null;
+
+    if(n[
+  }
+
+  return lowest_turn;
+}

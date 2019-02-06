@@ -1,0 +1,34 @@
+#ifndef MOVING_H
+# define MOVING_H
+
+/* This macro was learned from William Whyte
+   on Stack Overflow: https://stackoverflow.com/questions/111928/is-there-a
+   -printf-converter-to-print-in-binary-format and used to create the 
+   following macros*/
+#define BYTE_TO_BINARY(byte) \
+  (byte & 0x08 ? '1' : '0'), \
+  (byte & 0x04 ? '1' : '0'), \
+  (byte & 0x02 ? '1' : '0'), \
+  (byte & 0x01 ? '1' : '0')
+
+#define CHECK_INT(byte) \
+  (byte & 0x08 ? '1' : '0')
+
+#define CHECK_TUN(byte) \
+  (byte & 0x04 ? '1' : '0')
+
+#define CHECK_TEL(byte) \
+  (byte & 0x02 ? '1' : '0')
+
+#define CHECK_ERR(byte) \
+  (byte & 0x01 ? '1' : '0')
+
+typedef struct dungeon dungeon_t;
+
+void play_dungeon(dungeon_t *d);
+void update(next_turn_t c);
+void play(dungeon_t *d, next_turn_t c);
+int within_vision(dungeon_t *d, next_turn_t c);
+void move_random(dungeon_t *d);
+void is_PC(dungeon_t *d);
+#endif

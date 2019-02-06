@@ -1,0 +1,10 @@
+main: DugeonLoadSave.o
+	gcc DugeonLoadSave.o -o DugeonLoadSave
+
+DugeonLoadSave.o: DugeonLoadSave.o
+	gcc -c DugeonLoadSave.c -Wall -Werror -ggdb -o DugeonLoadSave.o
+
+clean:
+	rm -rf *o DugeonLoadSave
+
+

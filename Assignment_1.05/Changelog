@@ -1,0 +1,10 @@
+10/10/18	9PM	Started working on the project. Began by making a stairs struct then moving
+			into a new file for the pc interaction called interaction.c. Made a new render
+			 dungeon that refreshes the page for each new move by the character. It prints
+			 out the map after a cycle has completed. 
+10/11/18	3PM	Started on player movement and controlling that with the given user controls 				in the pdf. The map is controlled by the player and updates for ones that are 				killed by the pc. The stairs lead to a new generated dungeon and going back 
+			creates an entirely new dungeon rather than leading to a dungeon previously 
+			explored. 
+10/14/18	3PM	Finished product just testing and fixing minor bugs with the program, like 
+			giving a dead monster to the monster map and not killing the monster when the 
+			player takes a space with a monster in it.

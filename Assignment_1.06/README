@@ -1,0 +1,1 @@
+This implementation of the dungeon has fog of war as well as a new teleport function. The code has all been ported to C++ and compiles. I have used inheritance for the characters in the dungeon.

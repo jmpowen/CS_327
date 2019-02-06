@@ -1,0 +1,5 @@
+10/20/18	11AM	Got started by changing all the files to C++. Fixed any errors caused by malloc or signed to unsigned comparisons.
+10/20/18	12PM	Started FOW implementation. 
+10/20/18	2PM	Finished FOW. Started the teleport function for the player.
+10/20/18	5PM	Finished teleport. Putting this project away for hack ISU.
+10/23/18	9PM	Started working on character inheritance for players and npcs.

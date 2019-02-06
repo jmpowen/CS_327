@@ -1,0 +1,1 @@
+This path finder program creates two extra maps besides the dungeon. The first is the path finder for only corridors and rooms which will be used by non-tunnelling monsters. The second path finder map is for the whole dungeon and creates a value for each cell which a tunnelling monster will use to find the player in another assignment.

@@ -1,0 +1,4 @@
+9/2/2018 
+12:00PM	Started the assignment, created main, printDungeons, and buildDungeons.
+5:00PM	Rooms all print with at least one space apart, now on to the pathing between them.
+8:00PM	Paths connect all rooms with no issues or dead ends

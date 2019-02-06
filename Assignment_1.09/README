@@ -1,0 +1,12 @@
+The way I created the game and implemented the instructions from the pdf is laid out below:
+
+,:	item pickup command. Picks up first item on stack if their is a
+
+w:	wears an item and is accessible only in players inventory
+t:	takes off an item equipped and stores it in inventory if there is room otherwise it is dropped, accessible only from players equipment
+d:	drop an item and is accessible in inventory or equipment
+x:	expunge an item and is accessible while handling ordinary input(not in inventory or equipment)
+i: 	list PC inventory and accessible while handling ordinary input
+e:	list PC equipment and accessible while handling ordinary input
+I:	Inspects an item while in player inventory
+L:	Looks at a monster, accessible while handling ordinary input

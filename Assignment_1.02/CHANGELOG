@@ -1,0 +1,16 @@
+9/10/18 -	7PM
+		Got started on the project today. Figured out how the fread, fwrite works.
+		11PM
+		Finished the save switch and started on the load switch.
+9/11/18 -	1AM
+		Got stuck with segmentation fault in the load switch. Finished for the night.
+		1PM
+		Used a char array to set the unsigned char equal to then set the char array to the 			hardness array with a cast int to the char.
+9/12/18 -	3PM
+		Started the project up again and worked on the load switch. Got it to work and 
+		completed that switch for my own dungeons.
+		6PM
+		Tried out his dungeons and started reworking my code to read his files.
+		8PM
+		Got the dungeon to save and load Jeremy's files. Going to complete the README and 
+		Makefile and be done.

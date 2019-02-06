@@ -1,0 +1,3 @@
+11/1/18	10AM	Started the project. Read the PDF and reviewing Shaeffers code.
+11/2/18	2PM	Rewriting where the configuration from the file happens. The file is read into a configuration implementation that instantiates monsters from the file. The information is read to instances of items/monsters and the dungeon is generated with those values.
+11/4/18	10PM	Creates monsters/items from the files given. Those values are used in the dungeon and creates a dungeon with the values from the file.

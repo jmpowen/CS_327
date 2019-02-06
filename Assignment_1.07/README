@@ -1,0 +1,1 @@
+This assignment was implemented in the manner Jeremy specified in the pdf. The program parses the file passed to it. The fields are stored into monster_desc.txt and then the program is exited. You cannot play the dungeon in this version, it is only a text parser. Their are no known issues with this program.

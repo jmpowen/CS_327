@@ -1,0 +1,9 @@
+#ifndef NCURSES_H
+# define NCURSES_H
+
+#include <stdint.h>
+#include <ncurses.h>
+
+void io_init_terminal(void);
+
+#endif
